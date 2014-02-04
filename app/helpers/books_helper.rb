@@ -3,4 +3,8 @@ module BooksHelper
     puts('hello')
   end
 
+  def yoboy
+    puts('yoboy')
+  end
+
 end
