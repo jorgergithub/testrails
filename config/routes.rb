@@ -1,4 +1,10 @@
 Testrails::Application.routes.draw do
+  resources :cars
+
+  resources :books
+
+  resources :hot_dogs
+
   resources :hotdogs
 
   # The priority is based upon order of creation: first created -> highest priority.

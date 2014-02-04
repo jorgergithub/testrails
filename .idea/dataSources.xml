@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="1114781868">
+  <component name="DataSourceManagerImpl" format="xml" hash="3931171313">
     <data-source source="LOCAL" name="Rails testrails: development" uuid="66bfd058-b231-4864-993c-aabf53ada5b3">
       <driver-ref>mysql</driver-ref>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://127.0.0.1/world</jdbc-url>
-      <user-name>jorger</user-name>
-      <user-password>dfc0dfc5dfd8dfcddfcfdfd8</user-password>
+      <jdbc-url>jdbc:sqlite:C:\Documents and Settings\Administrator\RubymineProjects\testrails\testdb.sqlite3</jdbc-url>
       <libraries />
     </data-source>
     <data-source source="LOCAL" name="Rails testrails: test" uuid="99f348e0-2c63-46fe-91f6-0dca0f940482">
       <driver-ref>mysql</driver-ref>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://127.0.0.1/testrails_test</jdbc-url>
-      <user-name>jorger</user-name>
-      <user-password>dfc0dfc5dfd8dfcddfcfdfd8</user-password>
+      <jdbc-url>jdbc:sqlite:C:\Documents and Settings\Administrator\RubymineProjects\testrails\testdb.sqlite3</jdbc-url>
       <libraries />
     </data-source>
     <data-source source="LOCAL" name="Rails testrails: production" uuid="16f8c946-9a7a-4c63-8a89-1f400b0419a7">
@@ -43,6 +39,7 @@
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:testdb.sqlite3</jdbc-url>
+      <schema-pattern>*</schema-pattern>
       <libraries />
     </data-source>
   </component>

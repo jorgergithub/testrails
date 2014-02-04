@@ -4509,9 +4509,5 @@
     <database-info product="SQLite" version="3.6.3" jdbc-version="2.1" driver-name="SQLiteJDBC" driver-version="native"/>
     <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed"/>
     <schema name="" catalog=""/>
-    <table name="HOTDOG" schema="" catalog="" type="TABLE">
-      <column name="id" sqlType="INT" length="2000000000" precision="10" nullable="false" jdbcType="12"/>
-      <column name="name" sqlType="STRING" length="2000000000" precision="10" nullable="false" jdbcType="12"/>
-    </table>
   </data-source>
 </component>
