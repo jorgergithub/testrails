@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="1114781868">
+    <data-source source="LOCAL" name="Rails testrails: development" uuid="66bfd058-b231-4864-993c-aabf53ada5b3">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/world</jdbc-url>
+      <user-name>jorger</user-name>
+      <user-password>dfc0dfc5dfd8dfcddfcfdfd8</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails testrails: test" uuid="99f348e0-2c63-46fe-91f6-0dca0f940482">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/testrails_test</jdbc-url>
+      <user-name>jorger</user-name>
+      <user-password>dfc0dfc5dfd8dfcddfcfdfd8</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails testrails: production" uuid="16f8c946-9a7a-4c63-8a89-1f400b0419a7">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/testrails_production</jdbc-url>
+      <user-name>jorger</user-name>
+      <user-password>dfc0dfc5dfd8dfcddfcfdfd8</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="MySQL - sakila@localhost" uuid="8d9b50e2-b78e-47a8-9066-c01174538c9a">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/sakila</jdbc-url>
+      <user-name>jorger</user-name>
+      <user-password>dfc0dfc5dfd8dfcddfcfdfd8</user-password>
+      <driver-properties>
+        <property name="zeroDateTimeBehavior" value="convertToNull" />
+        <property name="tinyInt1isBit" value="false" />
+      </driver-properties>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="SQLite - testdb.sqlite3" uuid="d2a2f919-8f91-4536-8e33-9c44c2840b65">
+      <driver-ref>sqlite.zentus</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:testdb.sqlite3</jdbc-url>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+
