@@ -1,11 +1,7 @@
 Testrails::Application.routes.draw do
-  resources :cars
+  resources :microposts
 
-  resources :books
-
-  resources :hot_dogs
-
-  resources :hotdogs
+  resources :users
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
