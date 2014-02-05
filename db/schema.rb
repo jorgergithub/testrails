@@ -13,11 +13,6 @@
 
 ActiveRecord::Schema.define(version: 20140205174400) do
 
-  create_table "cars", force: true do |t|
-    t.string "model"
-    t.string "year"
-  end
-
   create_table "microposts", force: true do |t|
     t.string  "content"
     t.integer "user_id"
