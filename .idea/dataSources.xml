@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="3931171313">
+  <component name="DataSourceManagerImpl" format="xml" hash="2712913982">
     <data-source source="LOCAL" name="Rails testrails: development" uuid="66bfd058-b231-4864-993c-aabf53ada5b3">
       <driver-ref>mysql</driver-ref>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
@@ -38,7 +38,7 @@
       <driver-ref>sqlite.zentus</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:testdb.sqlite3</jdbc-url>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/testdb.sqlite3</jdbc-url>
       <schema-pattern>*</schema-pattern>
       <libraries />
     </data-source>

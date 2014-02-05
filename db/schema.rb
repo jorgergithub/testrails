@@ -13,12 +13,6 @@
 
 ActiveRecord::Schema.define(version: 20140204054105) do
 
-  create_table "books", force: true do |t|
-    t.string "author"
-    t.string "string"
-    t.string "title"
-  end
-
   create_table "cars", force: true do |t|
     t.string "model"
     t.string "year"
