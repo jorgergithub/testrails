@@ -1,2 +1,0 @@
-module WelcomeHelperMasterBranch2
-end
